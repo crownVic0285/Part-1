@@ -7,5 +7,4 @@ function App() {
     );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+ReactDom.render(<App />, document.getElementById('root'));
